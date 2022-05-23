@@ -11,7 +11,7 @@ function new_task(){
         alert("Cannot create empty task, please enter something.");
     }
     else {
-        document.getElementById("list").appendChild(document.createElement("li").append(document.createTextNode(task)));
+        document.getElementById("list").appendChild(document.createElement("li").appendChild(document.createTextNode(task)));
     }
     document.forms[0].elements[0].value = "";
 }
