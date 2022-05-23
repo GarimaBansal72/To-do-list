@@ -7,7 +7,7 @@ list.addEventListener('click', function(evnt) {
 
 function new_task(){
     var task=document.forms[0].elements[0].value;
-    if (task==""){
+    if (task===''){
         alert("Cannot create empty task, please enter something.");
     }
     else {
