@@ -49,6 +49,8 @@ ul li{
     font-size: 20px;
     box-shadow: inset 0px 0px 0px 1px rgb(202, 214, 214);
     box-sizing: border-box;
+    list-style-type: none;
+    margin-left: -2em;
 }
 ul li:hover{
     background-color: #ADEFD1FF;
