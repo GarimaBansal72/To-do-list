@@ -8,7 +8,7 @@
     <body>
         <div class="header">
             <h1>My To-Do List</h1>
-            <form>
+            <form onSubmit="event.preventDefault()">
                 <input type="text" class="new_task" placeholder="Enter new task here"/>
                 <input type="submit" class="submit_button" value="ADD" onClick="new_task()"/>
             </form>
